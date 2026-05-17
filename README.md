@@ -1,5 +1,4 @@
 # 🛒 E-Commerce Data Analytics Project
-### DecodeLabs Industrial Training | Batch 2026
 
 A full end-to-end data analytics project on a real-world e-commerce orders dataset (1,200 rows). The project is divided into four milestones — Data Cleaning, Exploratory Data Analysis, SQL Analysis, and Advanced Insights — each building on the previous one.
 
@@ -98,17 +97,6 @@ SQL queries written in MySQL to extract business insights directly from the orde
 | `HAVING` | Products with revenue > $10,000, coupon codes used > 10 times |
 | Date functions | Monthly revenue using `MONTH(DATE)` |
 
-**Sample Query:**
-```sql
--- Revenue, order count, and avg value by Product
-SELECT Product,
-       COUNT(*)                    AS total_orders,
-       SUM(TotalPrice)             AS total_revenue,
-       ROUND(AVG(TotalPrice), 2)   AS avg_order_value
-FROM orders
-GROUP BY Product
-ORDER BY total_revenue DESC;
-```
 
 **Tool:** MySQL Workbench 8.0
 
@@ -162,19 +150,5 @@ A polished, styled version of the EDA with deeper observations and business-leve
 | MySQL Workbench 8.0 | SQL queries and analysis |
 | Jupyter Notebook / Google Colab | Development environment |
 | GitHub | Version control and portfolio |
-
----
-
-## 🚀 How to Run
-
-**Python notebooks:**
-1. Open in Google Colab or Jupyter Notebook
-2. Upload `cleaned_data.xlsx` when prompted
-3. Run all cells in order
-
-**SQL file:**
-1. Open MySQL Workbench and connect to your local server
-2. Run `import_orders.sql` first to create and populate the table
-3. Then open and run `Project_2_sql_analysis.sql`
 
 ---
