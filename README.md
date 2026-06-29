@@ -9,10 +9,10 @@ A full end-to-end data analytics project on a real-world e-commerce orders datas
 ```
 ecommerce-data-analytics/
 │
-├── week1_project.ipynb          # Project 1 – Data Cleaning
-├── week2_EDA.ipynb              # Project 2 – EDA & Visualizations
-├── Project_2_sql_analysis.sql   # Project 3 – SQL Data Analysis
-├── week4_insight.ipynb          # Project 4 – Advanced Insights
+├── data_cleaning_.ipynb           – Data Cleaning
+├── EDA.ipynb                – EDA & Visualizations
+├── sql_analysis.sql    – SQL Data Analysis
+├── data_insight.ipynb        – Advanced Insights
 └── README.md
 ```
 
@@ -35,8 +35,8 @@ ecommerce-data-analytics/
 
 ---
 
-### ✅ Project 1 — Data Cleaning
-**File:** `week1_project.ipynb`
+### ✅  — Data Cleaning
+**File:** `data_cleaning.ipynb`
 
 The raw dataset was inspected and cleaned before any analysis.
 
@@ -54,8 +54,8 @@ The raw dataset was inspected and cleaned before any analysis.
 
 ---
 
-### 📈 Project 2 — Exploratory Data Analysis (EDA)
-**File:** `week2_EDA.ipynb`
+### 📈— Exploratory Data Analysis (EDA)
+**File:** `EDA.ipynb`
 
 Visual exploration of the cleaned dataset to understand distributions, relationships, and trends.
 
@@ -80,8 +80,8 @@ Visual exploration of the cleaned dataset to understand distributions, relations
 
 ---
 
-### 🛢️ Project 3 — SQL Data Analysis
-**File:** `Project_2_sql_analysis.sql`
+### 🛢️SQL Data Analysis
+**File:** `sql_analysis.sql`
 
 SQL queries written in MySQL to extract business insights directly from the orders table.
 
@@ -102,8 +102,8 @@ SQL queries written in MySQL to extract business insights directly from the orde
 
 ---
 
-### 💡 Project 4 — Advanced Insights
-**File:** `week4_insight.ipynb`
+### 💡 Advanced Insights
+**File:** `data_insight.ipynb`
 
 A polished, styled version of the EDA with deeper observations and business-level explanations for each chart.
 
